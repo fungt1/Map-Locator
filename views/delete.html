@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Map Locator - Delete Place</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <h1 class="display-4 text-center">
+            Delete Place
+            <p style="font-size: 20px">For now deleting does not correctly work but I left the option here because it
+                can delete. If you put in input it will not delete the right point. Currently I am working on it
+                and will update it when it works completely.
+            </p>
+            <form id="store-form" class="mb-4">
+                <div class="form-group">
+                    <label for="store-id">Place ID</label>
+                    <input type="text" id="store-id" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="index.html" class="btn btn-secondary">Back</a>
+            </form>
+    </div>
+    <script src="js/delete.js"></script>
+</body>
+
+</html>
